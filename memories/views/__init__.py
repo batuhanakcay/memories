@@ -1,0 +1,1 @@
+from memories.views.index import show_index
