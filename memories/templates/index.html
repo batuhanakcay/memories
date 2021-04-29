@@ -32,12 +32,23 @@
       </dl>
     </div>
     <div class="col-sm-4">
-        <h3>Memory 2</h3>
-        <p>Description 2</p>
+        <h3>States</h3>
+        <dl>
+          <dt>States Visited: {{states|length}}/50</dt>
+          {% for state in states %} 
+          <dd>- {{state}}</dd>
+          {% endfor %}
+          <p></p>
+        </dl>
     </div>
     <div class="col-sm-4">
-        <h3>Memory 3</h3>
-        <p>Description 3</p>
+        <h3>Hobbies</h3>
+        <dl>
+          {% for hobby in hobbies %} 
+          <dd>- {{hobby}}</dd>
+          {% endfor %}
+          <p></p>
+        </dl>
     </div>
   </div>
 </div>

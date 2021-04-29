@@ -5,3 +5,13 @@ CREATE TABLE friends(
   connection VARCHAR(40) NOT NULL,
   PRIMARY KEY(name)
 );
+
+CREATE TABLE states(
+  name VARCHAR(20) NOT NULL,
+  PRIMARY KEY(name)
+);
+
+CREATE TABLE hobbies(
+  name VARCHAR(20) NOT NULL,
+  PRIMARY KEY(name)
+);
